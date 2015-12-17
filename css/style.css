@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700,400);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,400italic);
+
+body{
+	margin: 0;
+	font-size: 15px;
+}
+
+header {
+
+}
+
+div {
+
+}
+
+nav {
+	background-color: rgba(55,158,36,.5);
+	margin: 0 auto;
+}
+
+a{
+	font-family: 'Josefin Slab', serif;
+	color: #5E5957;
+	font-size: 3em;
+	padding: 25px;
+}
+
+section {
+	max-width: 40%;
+	float: left;
+	margin: 50px auto;
+}
+
+main{
+
+}
+
+h1{
+	font-family: 'Josefin Slab', serif;
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.8em;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+aside{
+	float: right;
+}
+
+footer{
+	font-family: 'Josefin Slab', serif;
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.clearfix {
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+.nav{
+	margin: 0 auto;
+}
+
+.navlinks{
+
+}
+
+.left{
+
+}
+
+.right {
+
+}
+
+.formbox{
+
+}
+
+.inputrow {
+
+}
+
+.input {
+
+}
+
+.subscript {
+
+}
+
+.end{
+
+}
+
+#rgname{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	font-style: italic;
+	margin: 50px auto;
+}
+
+#home{
+
+}
+
+#reserve {
+
+}
+
+#area_subscript {
+
+}
