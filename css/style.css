@@ -20,7 +20,7 @@ nav {
 }
 
 a{
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color: #5E5957;
 	font-size: 3em;
 	padding: 25px;
@@ -51,6 +51,17 @@ h3 {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+h4 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+h6 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.7em;
+	font-weight: 700;
+}
+
 p {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.5em;
@@ -58,6 +69,18 @@ p {
 
 aside{
 	float: right;
+}
+
+label {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.3em;
+}
+
+span{
+	font-family: 'Josefin Slab', serif;
+	font-weight: 700;
+	display: block;
+	padding: 5px;
 }
 
 footer{
@@ -85,23 +108,26 @@ footer{
 }
 
 .left{
-
+	float: left;
 }
 
 .right {
-
+	float: right;
 }
 
 .formbox{
-
+	text-align: center;
+	display: block;
 }
 
 .inputrow {
-
+	display: block;
+	padding: 5px;
 }
 
 .input {
-
+	display: inline-block;
+	padding: 5px;
 }
 
 .subscript {
@@ -125,7 +151,8 @@ footer{
 }
 
 #reserve {
-
+	text-align: center;
+	margin-top: 25px;
 }
 
 #area_subscript {
