@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700,400);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,600);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 
 body{
 	margin: 0;
@@ -20,7 +20,7 @@ nav {
 }
 
 a{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #5E5957;
 	font-size: 3em;
 	padding: 25px;
@@ -32,47 +32,57 @@ section {
 	margin: 50px auto;
 }
 
-main{
-
-}
-
 h1{
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 	font-size: 3em;
 	margin: 0 auto;
 	padding-bottom: 50px;
+	text-transform: uppercase;
 }
 
 h2{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.8em;
 }
 
 h3 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 h4 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5em;
 	margin: 0;
 }
 
 h5 {
-	font-size: 1.25em;
-	margin: 0;
+	display: block;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	padding: 5px;
 }
 
 h6 {
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.7em;
-	font-weight: 700;
+	font-weight: 600;
 	margin: 0 auto;
+	text-transform: uppercase;
+	padding: 15px;
 }
 
 p {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5em;
+	font-weight: 300px;
+}
+
+hr {
+	width: 40%;
+	text-align: center;
 }
 
 aside{
@@ -80,25 +90,27 @@ aside{
 }
 
 label {
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.3em;
 }
 
 ul, li{	
 	display: block;
 	text-align: center;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.4em;
 }
 
 span{
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	display: block;
 	padding: 5px;
 }
 
 footer{
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Raleway', sans-serif;
 	clear: both;
 	text-align: center;
 	margin: 0 auto;
@@ -116,6 +128,7 @@ footer{
 .wrap {
 	margin: 0 auto;
 	text-align: center;
+	padding: 10px;
 }
 
 .nav{
@@ -129,13 +142,21 @@ footer{
 .left{
 	float: left;
 	display: block;
-	padding: 0 5% 0 15%; 
+	padding: 0;
 }
 
 .right {
 	float: right;
 	display: block;
-	padding: 0 15% 0 5%; 
+	padding: 0;
+}
+
+.lwine{
+	padding: 0 0 0 28%; 
+}
+
+.rwine {
+	padding: 0 28% 0 0; 
 }
 
 .formbox{
@@ -161,8 +182,9 @@ footer{
 
 }
 
+
 #rgname{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 3em;
 	font-weight: 400;
 	font-style: italic;
@@ -184,6 +206,7 @@ footer{
 
 #hhmenu{
 	text-align: center;
+	margin-top: 50px;
 }
 
 #salads {
