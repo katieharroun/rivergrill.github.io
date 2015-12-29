@@ -20,16 +20,21 @@ nav {
 }
 
 a{
-	font-family: 'Quicksand', sans-serif;
-	color: #5E5957;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 	font-size: 3em;
-	padding: 25px;
+	margin: 0 auto;
+	padding: 0 25px;
+	text-transform: uppercase;
+	color: #5E5957;
+	text-decoration: none;
 }
 
 section {
-	max-width: 40%;
+	width: 50%;
 	float: left;
 	margin: 50px auto;
+	padding: 0 5%;
 }
 
 h1{
@@ -37,13 +42,14 @@ h1{
 	font-weight: 100;
 	font-size: 3em;
 	margin: 0 auto;
-	padding-bottom: 50px;
+	padding: 50px 0;
 	text-transform: uppercase;
 }
 
 h2{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.8em;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -78,6 +84,7 @@ p {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300px;
+	text-transform: uppercase;
 }
 
 hr {
@@ -87,6 +94,8 @@ hr {
 
 aside{
 	float: right;
+	padding: 0 11%;
+	margin-top: 50px;
 }
 
 label {
@@ -103,10 +112,8 @@ ul, li{
 }
 
 span{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	display: block;
-	padding: 5px;
+	text-align: right;
+	float: right;
 }
 
 footer{
@@ -132,7 +139,7 @@ footer{
 }
 
 .nav{
-	margin: 0 auto;
+	text-align: center;
 }
 
 .navlinks{
@@ -142,21 +149,33 @@ footer{
 .left{
 	float: left;
 	display: block;
-	padding: 0;
+	padding: 0 5% 0 15%;
+	max-width: 30%;
+	min-width: 26%;
 }
 
 .right {
 	float: right;
 	display: block;
-	padding: 0;
+	padding: 0 15% 0 5%;
+	max-width: 30%;
+	min-width: 26%;
 }
 
-.lwine{
-	padding: 0 0 0 28%; 
+.wineleft{
+	float: left;
+	width: 30%;
+	padding: 0 10%;
 }
 
-.rwine {
-	padding: 0 28% 0 0; 
+.wineright {
+	float: right;
+	width: 30%;
+	padding: 0 10%;
+}
+
+.wines{
+	text-align: left;
 }
 
 .formbox{
@@ -182,6 +201,12 @@ footer{
 
 }
 
+.glasswines {
+	text-align: left;
+	width: 50%
+	padding: 0 12%;
+}
+
 
 #rgname{
 	font-family: 'Quicksand', sans-serif;
@@ -200,6 +225,13 @@ footer{
 	margin-top: 25px;
 }
 
+#winelist {
+	background: url(../images/snapdragon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
 #area_subscript {
 
 }
@@ -211,4 +243,11 @@ footer{
 
 #salads {
 	text-align: center;
+}
+
+#chicken {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	display: block;
+	padding: 5px;
 }
