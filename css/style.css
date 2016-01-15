@@ -1,9 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,600);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	margin: 0;
 	font-size: 15px;
+	background: #BDBBB8;
 }
 
 header {
@@ -22,19 +28,26 @@ nav {
 a{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
-	font-size: 3em;
+	font-size: 2.2em;
 	margin: 0 auto;
 	padding: 0 25px;
 	text-transform: uppercase;
 	color: #5E5957;
 	text-decoration: none;
+	font-weight: 600;
 }
 
 section {
 	width: 50%;
 	float: left;
-	margin: 50px auto;
+	margin: 100px auto;
 	padding: 0 5%;
+}
+
+aside{
+	float: right;
+	padding: 0 11%;
+	margin-top: 100px;
 }
 
 h1{
@@ -92,10 +105,8 @@ hr {
 	text-align: center;
 }
 
-aside{
-	float: right;
-	padding: 0 11%;
-	margin-top: 50px;
+img{
+	width: 24.5%;
 }
 
 label {
@@ -121,6 +132,7 @@ footer{
 	clear: both;
 	text-align: center;
 	margin: 0 auto;
+	background: #BDB2AE;
 }
 
 .clearfix:after {
@@ -165,12 +177,14 @@ footer{
 .wineleft{
 	float: left;
 	width: 30%;
+	min-width: 700px;
 	padding: 0 10%;
 }
 
 .wineright {
 	float: right;
 	width: 30%;
+	min-width: 700px;
 	padding: 0 10%;
 }
 
@@ -220,9 +234,17 @@ footer{
 
 }
 
+#about{
+	padding-top: 100px;
+}
+
 #reserve {
 	text-align: center;
 	margin-top: 25px;
+}
+
+#menu{
+	background:	url(../imgaes/fishplate800.jpg);
 }
 
 #winelist {
@@ -234,6 +256,11 @@ footer{
 
 #area_subscript {
 
+}
+
+#foodpics{
+	width: 100%;
+	text-align: center;
 }
 
 #hhmenu{
@@ -250,4 +277,48 @@ footer{
 	font-weight: 700;
 	display: block;
 	padding: 5px;
+}
+
+@media only screen and (max-width: 2400px) {
+	.wineleft {
+		padding: 0 8%;
+	}
+	.wineright {
+		padding: 0 8%;
+	}
+}
+
+@media only screen and (max-width: 2100px) {
+	.wineleft {
+		padding: 0 6%;
+	}
+	.wineright {
+		padding: 0 6%;
+	}
+}
+
+@media only screen and (max-width: 1900px) {
+	section{
+		width: 40%;
+	}
+	.wineleft {
+		padding: 0 4%;
+	}
+	.wineright {
+		padding: 0 4%;
+	}
+}
+
+@media only screen and (max-width: 1700px) {
+	.wineleft {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.wineright {
+		float: none;
+		text-align: center;
+		padding: 50px 0;
+		margin: 0 auto;
+	}
 }
