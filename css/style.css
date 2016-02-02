@@ -9,7 +9,7 @@
 body{
 	margin: 0;
 	font-size: 15px;
-	background: #BDBBB8;
+	background: white;
 }
 
 header {
@@ -21,8 +21,9 @@ div {
 }
 
 nav {
-	background-color: rgba(55,158,36,.5);
+	background-color: rgba(87, 149, 98, .5);
 	margin: 0 auto;
+
 }
 
 a{
@@ -38,10 +39,12 @@ a{
 }
 
 section {
-	width: 50%;
-	float: left;
+	width: 75%;
+	float: right;
 	margin: 100px auto;
 	padding: 0 5%;
+	background-color: rgba(18, 142, 40, .5);
+	color: white;
 }
 
 aside{
@@ -52,16 +55,17 @@ aside{
 
 h1{
 	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
+	font-weight: 600;
 	font-size: 3em;
-	margin: 0 auto;
-	padding: 50px 0;
+	margin: 50 auto;
+	padding: 10px 0;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 h2{
 	font-family: 'Quicksand', sans-serif;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	text-transform: uppercase;
 }
 
@@ -80,13 +84,13 @@ h5 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
-	font-size: 2em;
+	font-size: 4em;
 	padding: 5px;
 }
 
 h6 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.7em;
+	font-size: 1.4em;
 	font-weight: 600;
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -95,7 +99,7 @@ h6 {
 
 p {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 300px;
 	text-transform: uppercase;
 }
@@ -103,10 +107,11 @@ p {
 hr {
 	width: 40%;
 	text-align: center;
+	margin: 50px auto;
 }
 
 img{
-	width: 24.5%;
+	width: 100%;
 }
 
 label {
@@ -119,7 +124,7 @@ ul, li{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
-	font-size: 1.4em;
+	font-size: 1.1em;
 }
 
 span{
@@ -133,6 +138,7 @@ footer{
 	text-align: center;
 	margin: 0 auto;
 	background: #BDB2AE;
+	position: relative;
 }
 
 .clearfix:after {
@@ -145,7 +151,7 @@ footer{
 }
 
 .wrap {
-	margin: 0 auto;
+	margin: 50px auto;
 	text-align: center;
 	padding: 10px;
 }
@@ -155,7 +161,17 @@ footer{
 }
 
 .navlinks{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	color: white;
+	letter-spacing: .3em;
+}
 
+.titles{
+	background-color: white;
+	width: 400px;
+	margin: 50 auto;
 }
 
 .left{
@@ -176,9 +192,12 @@ footer{
 
 .wineleft{
 	float: left;
+	background-color: rgba(227, 226, 226, .5);
 	width: 30%;
 	min-width: 700px;
 	padding: 0 10%;
+	height: 1050px;
+	
 }
 
 .wineright {
@@ -186,10 +205,18 @@ footer{
 	width: 30%;
 	min-width: 700px;
 	padding: 0 10%;
+	background-color: rgba(227, 226, 226, .5);
+	height: 1050px;
 }
 
 .wines{
 	text-align: left;
+	background-color: rgba(227, 226, 226, .5)
+}
+
+.bold {
+	font-weight: 400;
+	float: none;
 }
 
 .formbox{
@@ -234,8 +261,67 @@ footer{
 
 }
 
+#hhtitle {
+	background: url(../images/firpit.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+}
+
+#hhfood{
+	background: url(../images/burger.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#apps {
+	background: url(../images/sashimiplate.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#mainspic {
+	background: url(../images/fish.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#saladpic {
+	background: url(../images/beet.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#dessertpic {
+	background: url(../images/dessert2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#drinkspic {
+	background: url(../images/manhattan4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
 #about{
-	padding-top: 100px;
+	background: url(../images/outside1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	background-color: rgba(73, 81, 82, .5);
+}
+
+#info {
+	text-align: center;
+	width: 70%;
+	margin: 100px auto;
 }
 
 #reserve {
@@ -243,15 +329,31 @@ footer{
 	margin-top: 25px;
 }
 
+#drinklist {
+	width: 50%;
+	margin: 0 auto;
+	height: 700px;
+
+}
+
 #menu{
 	background:	url(../imgaes/fishplate800.jpg);
 }
 
-#winelist {
+#wine {
 	background: url(../images/snapdragon.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 200px;
+	background-color: rgba(227, 226, 226, .5);
+	/*height: 200px;*/
+}
+
+#winelist {
+	background-color: rgba(227, 226, 226, .5);
+}
+
+#drinks {
+	text-align: center;
 }
 
 #area_subscript {
@@ -265,11 +367,21 @@ footer{
 
 #hhmenu{
 	text-align: center;
-	margin-top: 50px;
+	margin: 50px 0;
+
 }
 
 #salads {
 	text-align: center;
+}
+
+#dessertmen {
+	float: right;
+	margin-right: 100px;
+	background-color: rgba(227, 226, 226, .5);
+	width: 40%;
+	text-align: center;
+	line-height: 2.5em;
 }
 
 #chicken {
@@ -277,6 +389,23 @@ footer{
 	font-weight: 700;
 	display: block;
 	padding: 5px;
+}
+
+#slideshow {
+	margin: 50px auto;
+	position: relative;
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
 }
 
 @media only screen and (max-width: 2400px) {
