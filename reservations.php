@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,13 +63,13 @@
 				</div>	
 				<div class="end"></div>
 			</div>
-			<div class="inputrow">
+			<!-- <div class="inputrow">
 				<div class="checkbox" id="opt_in">
 					<label for="opt_in">Yes! Send me special offers</label>
 					<input type="checkbox" name="opt_in" id="opt_in" value="1">
 				</div>
 				<div class="end"></div>
-			</div>	
+			</div> -->	
 		</div>	
 		<div class="formbox">
 			<h4>About your Reservation:</h4>

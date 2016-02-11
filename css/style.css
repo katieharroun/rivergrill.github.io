@@ -1,7 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:100,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,600);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 
 *{
+	/*box-sizing: border-box;*/
 	margin: 0;
 	padding: 0;
 }
@@ -16,14 +17,10 @@ header {
 
 }
 
-div {
-
-}
-
 nav {
-	background-color: rgba(87, 149, 98, .5);
+	background-color: rgba(18, 142, 40, .7);
 	margin: 0 auto;
-
+	position: fixed 100%;
 }
 
 a{
@@ -39,12 +36,16 @@ a{
 }
 
 section {
-	width: 75%;
+	width: 60%;
 	float: right;
 	margin: 100px auto;
-	padding: 0 5%;
-	background-color: rgba(18, 142, 40, .5);
+	/*padding: 0 5%;*/
+	background-color: rgba(18, 142, 40, .7);
 	color: white;
+}
+
+main {
+	/*height: 1500px;*/
 }
 
 aside{
@@ -67,6 +68,12 @@ h2{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5em;
 	text-transform: uppercase;
+	padding: 10px;
+}
+
+#dessertmen h2 {
+	font-family: 'Raleway';
+	font-weight: 600;
 }
 
 h3 {
@@ -85,7 +92,7 @@ h5 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 4em;
-	padding: 5px;
+	padding: .7em;
 }
 
 h6 {
@@ -100,7 +107,8 @@ h6 {
 p {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1em;
-	font-weight: 300px;
+	font-weight: 400;
+	line-height: 1.4em;
 	text-transform: uppercase;
 }
 
@@ -117,29 +125,93 @@ img{
 label {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.3em;
+	display: none;
 }
 
 ul, li{	
 	display: block;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 1.1em;
+	line-height: 1.3em;
 }
 
-span{
+span {
 	text-align: right;
 	float: right;
+	/*background-color: #ddd;*/
 }
 
 footer{
-	font-family: 'Raleway', sans-serif;
-	clear: both;
-	text-align: center;
-	margin: 0 auto;
-	background: #BDB2AE;
-	position: relative;
+	background: url(../images/footerbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
 }
+
+
+
+
+/* - - - - - FlexBox Code - - - - - - - */
+
+/*.wrap{
+  display: flex;
+  align-items: stretch;
+  width: 90%;
+  margin: auto;
+}
+
+button{
+  width: 30px;
+  border: none;
+  background: transparent;
+  color: #999;
+  font-size: 40px;
+  text-align: center;
+  outline: none;
+  opacity: 0.5;
+  transition: opacity 300ms ease-out;
+  
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.scroller{
+  flex: 1;
+  overflow: hidden;
+}
+
+.items{
+  list-style-type: none;
+  white-space: nowrap;
+  font-size: 0;
+  line-height: 0;
+  transition: transform 1s ease-in-out;
+}
+
+.item{
+  padding: 30px 20px;
+  display: inline-block;
+  width: 100%;
+  height: 1000px;
+  font-size: 25px;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  font-weight: bold;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  
+  &:nth-child(2) {
+    color: #fff;
+  }
+}*/
+  /* - - - - FlexBox Code - - - - - - - */
+
+
 
 .clearfix:after {
 	height: 0;
@@ -153,10 +225,10 @@ footer{
 .wrap {
 	margin: 50px auto;
 	text-align: center;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
-.nav{
+.nav {
 	text-align: center;
 }
 
@@ -165,13 +237,15 @@ footer{
 	font-weight: 100;
 	font-size: 1.5em;
 	color: white;
-	letter-spacing: .3em;
+	letter-spacing: .2em;
+	display: inline-block;
+	margin: 8px;
 }
 
-.titles{
+.titles {
 	background-color: white;
 	width: 400px;
-	margin: 50 auto;
+	margin: 100px;
 }
 
 .left{
@@ -179,7 +253,7 @@ footer{
 	display: block;
 	padding: 0 5% 0 15%;
 	max-width: 30%;
-	min-width: 26%;
+	/*min-width: 26%;*/
 }
 
 .right {
@@ -187,36 +261,44 @@ footer{
 	display: block;
 	padding: 0 15% 0 5%;
 	max-width: 30%;
-	min-width: 26%;
+/*	min-width: 26%;*/
 }
 
-.wineleft{
+.wineleft {
 	float: left;
+	display: block;
 	background-color: rgba(227, 226, 226, .5);
 	width: 30%;
 	min-width: 700px;
 	padding: 0 10%;
-	height: 1050px;
+	/*height: 1050px;*/
 	
 }
 
 .wineright {
 	float: right;
+	display: block;
 	width: 30%;
 	min-width: 700px;
 	padding: 0 10%;
 	background-color: rgba(227, 226, 226, .5);
-	height: 1050px;
+	/*height: 1050px;*/
 }
 
 .wines{
 	text-align: left;
-	background-color: rgba(227, 226, 226, .5)
+	background-color: rgba(227, 226, 226, .5);
 }
 
 .bold {
-	font-weight: 400;
+	font-weight: 600;
 	float: none;
+}
+
+.ebold{
+	float: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
 }
 
 .formbox{
@@ -242,12 +324,56 @@ footer{
 
 }
 
+.formbox {
+	margin-top: 30px;
+}
+
 .glasswines {
 	text-align: left;
-	width: 50%
+	width: 50%;
 	padding: 0 12%;
 }
 
+.eventp {
+	width: 40%;
+	margin: 20px auto;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+.eventhr {
+	width: 150px;
+}
+
+.galimages{
+	width: 20%;
+}
+
+.line {
+	width: 30px;
+	height: 4px;
+	background: #1BAF37;
+	margin: 4px 0;
+	color: white;
+}
+
+.mobilepics {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+.eventpg{
+	background-color: rgba(193, 176, 176, 0.57);
+    text-align: center;
+    padding: 169px 0;
+    color: #4F7936;
+    font-size: 1.5em;
+}
+
+#toggle {
+	display: none;
+}
 
 #rgname{
 	font-family: 'Quicksand', sans-serif;
@@ -261,39 +387,38 @@ footer{
 
 }
 
+#tagline {
+	padding: .2em;
+}
+
 #hhtitle {
 	background: url(../images/firpit.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 800px;
 }
 
 #hhfood{
 	background: url(../images/burger.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 900px;
 }
 
 #apps {
 	background: url(../images/sashimiplate.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 900px;
 }
 
 #mainspic {
 	background: url(../images/fish.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 900px;
 }
 
 #saladpic {
 	background: url(../images/beet.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 900px;
 }
 
 #dessertpic {
@@ -307,7 +432,6 @@ footer{
 	background: url(../images/manhattan4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 900px;
 }
 
 #about{
@@ -320,7 +444,7 @@ footer{
 
 #info {
 	text-align: center;
-	width: 70%;
+	width: 55%;
 	margin: 100px auto;
 }
 
@@ -332,12 +456,11 @@ footer{
 #drinklist {
 	width: 50%;
 	margin: 0 auto;
-	height: 700px;
 
 }
 
 #menu{
-	background:	url(../imgaes/fishplate800.jpg);
+
 }
 
 #wine {
@@ -345,15 +468,22 @@ footer{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: rgba(227, 226, 226, .5);
-	/*height: 200px;*/
 }
 
 #winelist {
 	background-color: rgba(227, 226, 226, .5);
+	padding-bottom: 50px;
+}
+
+#corkage {
+	background-color: rgba(227, 226, 226, .5);
+	padding: 75px 0 123px 0;
+	font-weight: 600;
 }
 
 #drinks {
 	text-align: center;
+	clear: both;
 }
 
 #area_subscript {
@@ -378,7 +508,7 @@ footer{
 #dessertmen {
 	float: right;
 	margin-right: 100px;
-	background-color: rgba(227, 226, 226, .5);
+	background-color: rgba(227, 226, 226, .7);
 	width: 40%;
 	text-align: center;
 	line-height: 2.5em;
@@ -391,6 +521,36 @@ footer{
 	padding: 5px;
 }
 
+/*#reservepg{
+	background: url(../images/reservationbook.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+
+#rgreserve{
+	background-color: rgba(227, 226, 226, .5);
+	height: 500px;
+	width: 60%;
+	margin: 50px auto 100px auto;
+	padding-top: 50px;
+}
+
+#continue {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+#gallink {
+	font-size: 1em;
+	padding: 0;
+}	
+
+#pbg{
+	background-color: white;
+}
+
+/*
 #slideshow {
 	margin: 50px auto;
 	position: relative;
@@ -406,6 +566,34 @@ footer{
 	left: 10px;
 	right: 10px;
 	bottom: 10px;
+}
+*/
+
+#rgevent {
+	margin-top: 75px; 
+}
+
+#eventphoto{
+	background: url(../images/silverwarebg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 50%;
+	margin: 0 auto;
+}
+#footercover {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	clear: both;
+	text-align: center;
+	margin: auto;
+	background-color: rgba(18, 142, 40, .7);
+	position: relative;
+	height: 200px;
+}
+
+#footwords {
+	padding: 40px;
 }
 
 @media only screen and (max-width: 2400px) {
@@ -439,6 +627,24 @@ footer{
 }
 
 @media only screen and (max-width: 1700px) {
+	a {
+		padding: 5px 15px;
+	}
+
+	section {
+		width: 60%;
+	}
+
+	.eventp {
+		width: 70%;
+	}
+
+	.navlinks {
+		letter-spacing: 0;
+		font-size: 1.4em;
+		margin: 1px;
+	}
+
 	.wineleft {
 		float: none;
 		text-align: center;
@@ -447,7 +653,138 @@ footer{
 	.wineright {
 		float: none;
 		text-align: center;
-		padding: 50px 0;
+		padding: 50px 4%;
 		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1419px) {
+	.eventpg{
+		padding: 154px 0;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	section {
+		width: 90%;
+	}
+
+	h5 {
+		font-size: 2.5em;
+	}
+
+	label {
+		display: block;
+		/*width:20px;
+		margin:auto;*/
+		float:right;
+	}
+
+	nav{
+		display: none;
+		position:static;
+		clear:both;
+		/*float: none;*/
+	}
+
+	header{
+		height:auto;
+		padding:20px;
+	}
+
+	.navlinks{
+		float:none;
+		display:block;
+	}
+
+	.foodwrap {
+		margin: 0 40px;
+	}
+
+	.eventpg{
+		padding: 169px 0;
+	}
+
+	#toggle:checked + nav {	
+		display: block;
+	}
+
+	#about {
+		height: 600px;
+	}
+
+	#info {
+		width: 80%;
+		margin: 70px auto;
+	}
+	#mobilewords {
+		display: none;
+	}
+	#drinklist {
+		width: 80%;
+	}
+	#eventphoto {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 1034px) {
+	.eventpg{
+		padding: 169px 0;
+	}
+}
+
+@media only screen and (max-width: 1017px) {
+	.eventpg{
+		padding: 154px 0;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+	.titles{
+		width: 300px;
+		margin: 20px;
+	}
+	.left{
+		float: none;
+		padding: 0;
+		max-width: 100%;
+		/*min-width: 100%;*/
+		margin: 0 40px;
+	}
+	.right{
+		float: none;
+		padding: 0;
+		max-width: 100%;
+		/*min-width: 100%;*/
+		margin: 0 40px;
+	}
+	.wineleft {
+		min-width: 500px;
+	}
+	.wineright {
+		min-width: 500px;
+	}
+
+	.mobilepics {
+		height: 500px;
+	}
+	#hhmenu {
+		margin: 50px 0;
+	}
+	#salads {
+		margin: 40px;
+	}
+}
+
+@media only screen and (max-width: 740px) {
+	.eventpg{
+		padding: 138px 0;
 	}
 }
