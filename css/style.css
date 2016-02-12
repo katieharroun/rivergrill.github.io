@@ -378,7 +378,7 @@ button{
 
 .container { 
 	width: 900px; 
-	margin: 190px auto; 
+	margin: 7% auto; 
 	padding-top: 1em; 
 }
 
@@ -442,6 +442,12 @@ button{
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 900px;
+}
+
+#containerwrap{
+	background-color: rgba(98, 127, 104, 0.42);
+	height: 600px;
+	margin-bottom: 200px;
 }
 
 #drinkspic {
@@ -748,6 +754,9 @@ button{
 	.eventpg{
 		padding: 169px 0;
 	}
+	.container{
+		margin: 2% auto;
+	}
 }
 
 @media only screen and (max-width: 1017px) {
@@ -799,8 +808,23 @@ button{
 	}
 }
 
+@media only screen and (max-width: 900px) {
+	.container{
+		width: 700px;
+	}
+	#containerwrap {
+		height: 470px;
+	}
+}
+
 @media only screen and (max-width: 740px) {
 	.eventpg{
 		padding: 138px 0;
+	}
+	.container{
+		width: 500px;
+	}
+	#containerwrap{
+		height: 350px;
 	}
 }

@@ -345,12 +345,13 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-radios label {
-    width: 60px; height: 32px;
+    width: 15px; 
+    height: 15px;
     border-radius: 0;
     color: #000; background-color: rgba(255, 255, 255, 0.5);
 }
 
-#my-slider .ism-radios li.ism-radio-0 label {
+/*#my-slider .ism-radios li.ism-radio-0 label {
     background-image: url(../image/slides/_u/1455234903079_38870.jpg);
 }
 
@@ -388,7 +389,7 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider .ism-radios li.ism-radio-9 label {
     background-image: url(../image/slides/_u/1455234889327_58844.jpg);
-}
+}*/
 
 #my-slider .ism-radios li.active label {
     background-color: rgba(255, 255, 255, 1.0);
