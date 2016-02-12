@@ -7,16 +7,22 @@
 
 
 <!-- header-group row: width = grid_width -->
-<header>
+	<header>
+		<label for="toggle">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</label>
+		<input type="checkbox" id="toggle">	
 			<nav>
 				<div class="nav">
 					<a class="navlinks" href="index.html">Home</a>
-					<a class="navlinks" href="index.html#hhmenu">Happy Hour</a>					
-					<a class="navlinks" href="index.html#apps">Menu</a>
-					<a class="navlinks" href="index.html#wine">Wine</a>
-					<!-- <a class="navlinks" href="events.html">Events</a>
-					<a class="navlinks" href="gallery.html">Gallery</a> -->
+					<a class="navlinks" href="#hhmenu">Happy Hour</a>					
+					<a class="navlinks" href="#apps">Menu</a>
+					<a class="navlinks" href="#wine">Wine</a>
+					<a class="navlinks" href="events.html">Events</a>
+					<a class="navlinks" href="gallery.html">Gallery</a>
 					<a class="navlinks" href="reservations.html">Reservations</a>
 				</div>	
 			</nav>
-</header>
+		</header>

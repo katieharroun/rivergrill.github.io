@@ -345,8 +345,13 @@ button{
 	width: 150px;
 }
 
+.firstrow{
+	display: block;
+}
+
 .galimages{
 	width: 20%;
+	display: inline-block;
 }
 
 .line {
@@ -369,6 +374,17 @@ button{
     padding: 169px 0;
     color: #4F7936;
     font-size: 1.5em;
+}
+
+.container { 
+	width: 900px; 
+	margin: 190px auto; 
+	padding-top: 1em; 
+}
+
+.container .ism-slider { 
+	margin-left: auto; 
+	margin-right: auto; 
 }
 
 #toggle {
