@@ -147,71 +147,8 @@ footer{
 	background: url(../images/footerbg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 130px;
+	height: 250px;
 }
-
-
-
-
-/* - - - - - FlexBox Code - - - - - - - */
-
-/*.wrap{
-  display: flex;
-  align-items: stretch;
-  width: 90%;
-  margin: auto;
-}
-
-button{
-  width: 30px;
-  border: none;
-  background: transparent;
-  color: #999;
-  font-size: 40px;
-  text-align: center;
-  outline: none;
-  opacity: 0.5;
-  transition: opacity 300ms ease-out;
-  
-  &:hover{
-    opacity: 1;
-  }
-}
-
-.scroller{
-  flex: 1;
-  overflow: hidden;
-}
-
-.items{
-  list-style-type: none;
-  white-space: nowrap;
-  font-size: 0;
-  line-height: 0;
-  transition: transform 1s ease-in-out;
-}
-
-.item{
-  padding: 30px 20px;
-  display: inline-block;
-  width: 100%;
-  height: 1000px;
-  font-size: 25px;
-  letter-spacing: -0.03em;
-  line-height: 1;
-  font-weight: bold;
-  background-size: cover;
-  background-position: 50% 50%;
-  text-transform: uppercase;
-  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
-  
-  &:nth-child(2) {
-    color: #fff;
-  }
-}*/
-  /* - - - - FlexBox Code - - - - - - - */
-
-
 
 .clearfix:after {
 	height: 0;
@@ -225,7 +162,6 @@ button{
 .wrap {
 	margin: 50px auto;
 	text-align: center;
-	/*padding: 10px;*/
 }
 
 .nav {
@@ -253,7 +189,6 @@ button{
 	display: block;
 	padding: 0 5% 0 15%;
 	max-width: 30%;
-	/*min-width: 26%;*/
 }
 
 .right {
@@ -261,7 +196,6 @@ button{
 	display: block;
 	padding: 0 15% 0 5%;
 	max-width: 30%;
-/*	min-width: 26%;*/
 }
 
 .wineleft {
@@ -271,12 +205,12 @@ button{
 	width: 30%;
 	min-width: 700px;
 	padding: 0 10%;
-	/*height: 1050px;*/
 	
 }
 
 .facebook {
 	width: 30px;
+	padding: 0;
 }
 
 .wineright {
@@ -286,7 +220,6 @@ button{
 	min-width: 700px;
 	padding: 0 10%;
 	background-color: rgba(227, 226, 226, .5);
-	/*height: 1050px;*/
 }
 
 .wines{
@@ -320,14 +253,6 @@ button{
 	padding: 5px;
 }
 
-.subscript {
-
-}
-
-.end{
-
-}
-
 .formbox {
 	margin-top: 30px;
 }
@@ -358,6 +283,10 @@ button{
 	display: inline-block;
 }
 
+.foothr{
+	margin: 5px auto;
+}
+
 .line {
 	width: 30px;
 	height: 4px;
@@ -386,6 +315,13 @@ button{
 	padding-top: 1em; 
 }
 
+.trr{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+	color: white;
+	padding: 0;
+}
+
 .container .ism-slider { 
 	margin-left: auto; 
 	margin-right: auto; 
@@ -401,10 +337,6 @@ button{
 	font-weight: 400;
 	font-style: italic;
 	margin: 50px auto;
-}
-
-#home{
-
 }
 
 #tagline {
@@ -482,11 +414,6 @@ button{
 #drinklist {
 	width: 50%;
 	margin: 0 auto;
-
-}
-
-#menu{
-
 }
 
 #wine {
@@ -512,10 +439,6 @@ button{
 	clear: both;
 }
 
-#area_subscript {
-
-}
-
 #foodpics{
 	width: 100%;
 	text-align: center;
@@ -524,7 +447,6 @@ button{
 #hhmenu{
 	text-align: center;
 	margin: 50px 0;
-
 }
 
 #salads {
@@ -544,12 +466,6 @@ button{
 	display: block;
 	padding: 5px;
 }
-
-/*#reservepg{
-	background: url(../images/reservationbook.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}*/
 
 #rgreserve{
 	background-color: rgba(227, 226, 226, .5);
@@ -574,25 +490,6 @@ button{
 	background-color: white;
 }
 
-/*
-#slideshow {
-	margin: 50px auto;
-	position: relative;
-	width: 500px;
-	height: 500px;
-	padding: 10px;
-	box-shadow: 0 0 20px rgba(0,0,0,0.4);
-}
-
-#slideshow > div {
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	bottom: 10px;
-}
-*/
-
 #rgevent {
 	margin-top: 75px; 
 }
@@ -613,7 +510,7 @@ button{
 	margin: auto;
 	background-color: rgba(18, 142, 40, .7);
 	position: relative;
-	height: 130px;
+	height: 250px;
 }
 
 #footwords {
