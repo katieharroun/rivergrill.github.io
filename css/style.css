@@ -147,7 +147,6 @@ footer{
 	background: url(../images/footerbg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 250px;
 }
 
 .clearfix:after {
@@ -510,11 +509,10 @@ footer{
 	margin: auto;
 	background-color: rgba(18, 142, 40, .7);
 	position: relative;
-	height: 250px;
 }
 
 #footwords {
-	padding: 40px 0 0 0;
+	padding: 50px 100px;
 }
 
 @media only screen and (max-width: 2400px) {
@@ -796,5 +794,9 @@ footer{
 	}
 	#tagline {
 		font-weight: 300;
+	}
+	#footwords {
+		padding: 50px 40px;
+		font-size: 10px;
 	}
 }
