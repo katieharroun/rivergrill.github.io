@@ -224,7 +224,7 @@
 					<h2>Apple Crisp</h2>
 					<p>Served warm with vanilla ice cream</p>
 					<h2>Cheesecake</h2>
-					<p>New York-Style cheesecake with blueberry sauce</p>
+					<p>New York-Style cheesecake with strawberry sauce</p>
 					<h2>Class V River Float</h2>
 					<p>Traditional favorite with root beer and vanilla vodka</p>
 					<h2>River Float</h2>
@@ -413,14 +413,11 @@
 	<footer>
 		<div id="footercover">
 			<div id="footwords">
-				<h3>River Grill</h3>
-				<h4>Reservations: (530)581-2644</h4>
-				<h4>55 West Lake Blvd.</h4>
-				<h4>Tahoe City, CA 96145</h4>
-				<h4>Just west of Fanny Bridge at the "Y" in Tahoe City- Intersection of Hwy 28 and 89</h4>
+				<h4>55 West Lake Blvd., Tahoe City, CA 96145  |  (530)581-2644</h4>
 				<hr class="foothr">
 				<h4>Looking for some Summer Fun? Checkout <a class="trr" target="_blank" href="https://www.truckeeriverrafting.com/index.php">Truckee River Rafting</a></h4>
 				<h4>Find us on <a class="facebook" target="_blank" href="https://www.facebook.com/rivergrilltahoe?fref=ts"><img class="facebook" src="images/facebook.png"></a></h4>
+				<h4 id="dby">-Website Designed by <a id="aclink" target="blank" href="http://www.alpencreative.com">Alpen Creative-</a></h4>
 			</div>
 		</div>
 	</footer>
